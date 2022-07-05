@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.title h2 {
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 5rem;
+    font-family: 'Roboto';
+    background-color: #e1ff00;
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    font-weight: 900;
+}
+
+.title p {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: #e1ff00;
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+@media (min-width: 320px) {
+    .title h2 {
+        position: fixed;
+        top: 10%;
+        z-index: 1;
+        color: #000000;
+        font-size: 2rem;
+        font-family: 'Roboto';
+        text-align: center;
+        background-color: #e1ff00;
+        box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+        border-radius: 1rem;
+        padding: 1.5rem;
+        font-weight: 900;
+    }
+
+    .title p {
+        position: fixed;
+        z-index: 2;
+        bottom: -25px;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'Roboto';
+        background-color: #e1ff00;
+        box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+        border-radius: 1rem;
+        padding: 1rem;
+
+    }
+}
+
+
+@media (min-width: 375px) {
+    .title h2 {
+        position: fixed;
+        top: 10%;
+        z-index: 1;
+        color: #000000;
+        font-size: 1.5rem;
+        font-family: 'Roboto';
+        text-align: center;
+        background-color: #e1ff00;
+        box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+        border-radius: 1rem;
+        padding: 1rem;
+        font-weight: 900;
+    }
+        
+    .title p {
+        position: fixed;
+        z-index: 2;
+        bottom: -25px;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'Roboto';
+        background-color: #e1ff00;
+        box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+        border-radius: 1rem;
+        padding: 1rem;
+
+    }
+}
+
+@media (min-width: 425px) {
+    .title h2 {
+        position: fixed;
+        top: 10%;
+        color: #000000;
+        font-size: 2rem;
+        font-family: 'Roboto';
+        text-align: center;
+        background-color: #e1ff00;
+        box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+        border-radius: 1rem;
+        padding: 2rem;
+        font-weight: 900;
+    }
+        
+
+    .title p {
+        position: fixed;
+        bottom: -25px;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'Roboto';
+        background-color: #e1ff00;
+        box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+        border-radius: 1rem;
+        padding: 2rem;
+
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .title h2 {
+        position: fixed;
+        top: 12%;
+        color: #000000;
+        font-size: 3rem;
+        font-family: 'Roboto';
+        text-align: center;
+        background-color: #e1ff00;
+        box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+        border-radius: 1rem;
+        padding: 1rem;
+        font-weight: 900;
+    }
+
+
+    .title p {
+        position: fixed;
+        bottom: 0;
+        transform: translate(-50%, -50%);
+        color: #000000;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Roboto';
+        background-color: #e1ff00;
+        box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.52);
+        border-radius: 1rem;
+        padding: 2rem;
+
+    }
+
+}
+       
+.blender {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 500px;
+    background-image: url('/img/blenderOff.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+.blender.active {
+    background-image: url('/img/blenderOn.gif');
+}
+    
+.blender-button {
+    margin: 350px auto 0px;
+    width: 70px;
+    height: 70px;
+}
+
+    
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
