@@ -29,10 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 
-
-![](https://i.imgur.com/VP0iWHx.png)
-
+![screen](https://user-images.githubusercontent.com/91361497/177301059-80ae8cb6-3c39-4c3d-9561-5a89a3229701.png)
 
 
 
-![](https://i.imgur.com/JNp0jnX.png)
