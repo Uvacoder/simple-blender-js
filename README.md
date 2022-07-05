@@ -1,6 +1,8 @@
 # Lab JavaScript Blender
 
-Project created using JavaScript, html and CSS
+
+Blender made with Html, CSS and JS,
+Turn it on by pressing the button
 
 ## get started!!
 
