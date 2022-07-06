@@ -175,14 +175,14 @@
     transform: translate(-50%, -50%);
     width: 800px;
     height: 500px;
-    background-image: url('/img/blenderOff.png');
+    background-image: url('../img/blenderOff.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
     
 .blender.active {
-    background-image: url('/img/blenderOn.gif');
+    background-image: url('../img/blenderOn.gif');
 }
     
 .blender-button {
